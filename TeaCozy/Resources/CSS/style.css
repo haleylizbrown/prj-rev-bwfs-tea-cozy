@@ -1,0 +1,183 @@
+* {
+  font-family: Helvetica;
+  color: Seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  position: relative;
+  top: 100px;
+}
+
+a {
+  padding-left: 1em;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  height: 69px;
+  width: 95%;
+  z-index: 5;
+}
+
+.header img {
+  margin-left: 10px;
+  height: 50px;
+}
+
+.header nav {
+  text-decoration: underline;
+}
+
+.featured-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 60px;
+  position: relative;
+  top: 100px;
+}
+
+.featured-images-top {
+  display: flex;
+  justify-content: space-around;
+  width: 1200px;
+  height: 200px;
+  position: relative;
+  top: 150px;
+}
+
+.featured-images-bottom {
+  text-align: center;
+  width: 1200px;
+  height: 200px;
+  padding-left: 2em;
+  position: relative;
+  top: 150px;
+}
+
+.featured-images-top
+  img {
+  width: 300px;
+  height: 200px;
+}
+
+.featured-images-bottom
+  img {
+  width: 300px;
+  height: 200px;
+  padding-left: 10px;
+}
+
+.featured-descriptions-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 1200px;
+  position: relative;
+  top: 150px;
+}
+
+.myrtle {
+  display: inline-flex;
+  width: 300px;
+  height: 70px;
+  position: relative;
+  top: 150px;
+  left: 5px;
+}
+
+.bedford {
+  display: inline-flex;
+  width: 300px;
+  height: 70px;
+  position: relative;
+  top: 150px;
+  left: 5px;
+}
+
+.location-container {
+  display: inline-flex;
+  justify-content: space-around;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  width: 1200px;
+  height: 500px;
+  position: relative;
+  top: 100px;
+}
+
+.downtown-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: 100px;
+  opacity: 1;
+}
+
+.bayside-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: 100px;
+  opacity: 1;
+}
+
+.oakdale-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  padding-right: 2em;
+  position: relative;
+  top: 100px;
+  opacity: 1;
+}
+
+.copyright h5 {
+  text-align: left;
+  margin-left: 20px;
+  position: relative;
+  top: 150px;
+}
+
+#Mission {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 70px;
+}
+
+#Mission h2,
+  h4 {
+    width: 1200px;
+  }
+
+#Locations {
+  width: 0px;
+  position: relative;
+  top: 150px;
+}
+
+#Locations h2 {
+  position: relative;
+  top: 15px;
+  width: 1200px;
+  }

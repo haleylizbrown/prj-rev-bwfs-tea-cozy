@@ -1,0 +1,160 @@
+* {
+  font-family: Helvetica;
+  color: Seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+footer {
+  height: 200px;
+  position: relative;
+  bottom: 175px;
+}
+
+a {
+  padding-left: 1em;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  height: 69px;
+  width: 95%;
+  z-index: 5;
+}
+
+.header img {
+  margin-left: 10px;
+  height: 50px;
+}
+
+.header nav {
+  text-decoration: underline;
+}
+
+.featured-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 60px;
+  position: relative;
+  top: 100px;
+}
+
+.featured-images-top {
+  display: flex;
+  justify-content: flex-end;
+  width: 1000px;
+  height: 200px;
+  position: relative;
+  top: 150px;
+}
+
+.featured-images-bottom {
+  display: flex;
+  width: 800px;
+  height: 200px;
+  position: relative;
+  top: 150px;
+}
+
+.featured-images-top
+  img {
+  width: 300px;
+  height: 200px;
+  padding-left: 2em;
+}
+
+.featured-images-bottom
+  img {
+  width: 300px;
+  height: 200px;
+  margin-left: 150px;
+  padding-left: 2em;
+}
+
+.featured-descriptions-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 1000px;
+  position: relative;
+  top: 150px;
+}
+
+.featured-descriptions-bottom {
+  display: flex;
+  width: 950px;
+  position: relative;
+  top: 150px;
+}
+
+.featured-descriptions-bottom h4 {
+  padding-left: 11em;
+  margin-bottom: 150px;
+}
+
+/*Make location background image flex container with height of 500px and width of 1200px*/
+
+.location-container {
+  display: inline-flex;
+  align-items: flex-start;
+  height: 300px;
+  position: relative;
+  bottom: 325px;
+}
+
+.downtown-container {
+  width: 300px;
+  height: 300px;
+  padding-right: 2em;
+}
+
+.bayside-container {
+  width: 300px;
+  height: 300px;
+}
+
+.oakdale-container {
+  width: 300px;
+  height: 300px;
+  padding-right: 2em;
+}
+
+.copyright h5 {
+  text-align: left;
+  margin-left: 20px;
+  position: relative;
+  bottom: 250px;
+}
+
+#Mission {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 70px;
+}
+
+#Mission h2,
+  h4 {
+    width: 1200px;
+  }
+
+#Locations h2 {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  position: relative;
+  top: 150px;
+  width: 1200px;
+  height: 500px;
+  text-align: center;
+  padding-top: 4em;
+}
